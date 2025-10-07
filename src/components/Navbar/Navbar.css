@@ -33,9 +33,11 @@ li{
 }
 
 img[src*='underline.jpeg'] {
-  height: 50px !important;
   width: 50px !important;
+  height: auto !important;
   object-fit: contain;
+  display: block;
+  margin: auto;
 }
 
 .nav-menu li{
