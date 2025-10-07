@@ -31,15 +31,15 @@ li{
     font-size: 22px;
     font-weight: 480;
 }
-
-img[src*='underline.jpeg'] {
-  width: 50px !important;
-  height: auto !important;
-  object-fit: contain;
-  display: block;
+.underline {
+  width: 50px;
+  height: 30px; 
+  background-image: url('../../assets/underline.jpeg'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   margin: auto;
 }
-
 .nav-menu li{
     display: flex;
     flex-direction: column;
